@@ -1,0 +1,14 @@
+I had planned to implement various cool features like opening directories in the file provider or supporting openrc, but all that took too long, so here's some accumulated bug fixes.
+
+Fixed bugs:
+- VNC being really really slow. It's now just slow, rather than really really slow.
+- Deadlock that showed up for me when doing git clone
+- Memory leak for every exited process
+- Rare deadlock when running x11vnc
+- A few emulator fixes for Java
+
+Send bug reports or feedback here: https://github.com/tbodt/ish/issues (or by email, if you prefer)
+Follow iSH on Twitter: https://twitter.com/iSH_app
+Join the Discord: https://discord.gg/SndDh5y
+Give me money here: https://patreon.com/tbodt
+
